@@ -7,6 +7,8 @@ This file is used to save wavelet functions. In my respository, the real part of
 
 $\Psi^{(Sha)}(t)= sinc(\dfrac{t}{2}) \cdot cos(\dfrac{3\pi t}{2})$
 
-In which $sinc(t):= \dfrac{sin \pi t}{\pi t}$
+In which $sinc(t):= \dfrac{sin \pi t}{\pi t}$.
+
+As 
 
 [1]:Fundmentals of Wavelets, p118
