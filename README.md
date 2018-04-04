@@ -9,6 +9,8 @@ $\Psi^{(Sha)}(t)= sinc(\dfrac{t}{2}) \cdot cos(\dfrac{3\pi t}{2})$
 
 In which $sinc(t):= \dfrac{sin \pi t}{\pi t}$.
 
-As 
+The window function can be written as:
+
+$$
 
 [1]:Fundmentals of Wavelets, p118
