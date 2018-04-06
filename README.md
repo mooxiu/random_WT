@@ -24,5 +24,7 @@ This file is used to calculate the time and frequency window. For a given time s
 
 Time center: $t^{\*}:= \dfrac{1}{||\phi||^2} \int_{-\infty}^{\infty} t |\phi(t)|^2 dt$
 
+RMS radius of time: $\Delta_{\phi}:= \dfrac{1}{||\phi||}\[\int_{-\infty}^{\infty}(t-t^{\*})^2|\phi(t)|^2 dt\]^{1/2}$
+
 
 [1]:Fundmentals of Wavelets, p118
