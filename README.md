@@ -32,5 +32,8 @@ Frequecny center: $\omega^{\*}:=\dfrac{1}{||\hat{\phi}||^2} \int_{-\infty}^{\inf
 
 RMS radius of frequency: $\Delta_{\hat{\phi}}:= \dfrac{1}{||\hat{\phi}||}\[\int_{-\infty}^{\infty} (\omega-\omega^{\*})^2|\hat{\phi}(\omega)|^2 d\omega\]$
 
+In which, $||\phi||^2$ means the 2 norm of $\phi$, that is $||\phi||^2=\int_{-\infty}^{\infty}|\phi(t)|^2 dt$
+
+
 
 [1]:Fundmentals of Wavelets, p118
