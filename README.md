@@ -44,6 +44,11 @@ This file can be divided into three parts, they are dealing with 1.wavelet trans
 
 Continuous wavelet transform can cover the whole time and frequency domian, which is unpractical. As we are only considering change a certain part of time and frequency, we can only integrate in a certain range to find out the wavelet coefficient of certain time and frequency.
 
+The wavelet coefficient for all time range and frequency range:
+
+$W_{f}(b,a)=\dfrac{1}{\sqrt{a}}\int_{-\infty}^{\infty} f(t) \bar{\psi}\dfrac{t-b}{a}dt$
+
+
 
 
 
