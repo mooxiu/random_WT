@@ -20,6 +20,6 @@ WShannon_sp is ???
 
 ## TFwindow.py
 
-This file is used to calculate the time and frequency window. For a given time shift and scale, we have to decide the center time $t^{*}$ and center scale $\omega ^{*}$,
+This file is used to calculate the time and frequency window. For a given time shift and scale, we have to decide the center time $t^{\*}$ and center scale $\omega ^{\*}$,
 
 [1]:Fundmentals of Wavelets, p118
