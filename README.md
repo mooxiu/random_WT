@@ -48,7 +48,7 @@ The wavelet coefficient for all time range and frequency range:
 
 $W_{f}(b,a)=\dfrac{1}{\sqrt{a}}\int_{-\infty}^{\infty} f(t) \bar{\psi}\dfrac{t-b}{a}dt$
 
-
+In this original cwt function, 
 
 
 
