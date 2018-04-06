@@ -20,6 +20,9 @@ WShannon_sp is ???
 
 ## TFwindow.py
 
-This file is used to calculate the time and frequency window. For a given time shift and scale, we have to decide the center time $t^{\*}$ and center scale $\omega ^{\*}$, the RMS radius of time $\Delta_{\phi}$ and RMS radius of scale $\Delta_{\hat{\phi}}$.
+This file is used to calculate the time and frequency window. For a given time shift and scale, we have to decide the center time $t^{\*}$ and center scale $\omega ^{\*}$, the RMS radius of time $\Delta_{\phi}$ and RMS radius of scale $\Delta_{\hat{\phi}}$. According to [This slide](http://www.spcom.ecei.tohoku.ac.jp/~aito/wavelet/slide2.pdf), those parameters can be calculated by:
+
+Time center: $t^{\*}:= \dfrac{1}{||\phi||^2} \int_{-\infty}^{\infty} t |\phi(t)|^2 dt$
+
 
 [1]:Fundmentals of Wavelets, p118
