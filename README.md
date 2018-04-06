@@ -28,7 +28,9 @@ RMS radius of time: $\Delta_{\phi}:= \dfrac{1}{||\phi||}\[\int_{-\infty}^{\infty
 
 The center and radius for frequency is similar to time, they can be represented as:
 
-Frequecny center: $\omega^{\*}:=\defrac{1}{||\hat{\phi}||^2} \int_{-\infty}^{\infty} \omega |\hat{\phi}(\omega)|^2 d\omega$
+Frequecny center: $\omega^{\*}:=\dfrac{1}{||\hat{\phi}||^2} \int_{-\infty}^{\infty} \omega |\hat{\phi}(\omega)|^2 d\omega$
+
+RMS radius of frequency: $\Delta_{\hat{\phi}}:= \dfrac{1}{||\hat{\phi}||}\[\int_{-\infty}^{\infty} (\omega-\omega^{\*})^2|\hat{\phi}(\omega)|^2 d\omega\]$
 
 
 [1]:Fundmentals of Wavelets, p118
