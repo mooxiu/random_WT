@@ -26,5 +26,9 @@ Time center: $t^{\*}:= \dfrac{1}{||\phi||^2} \int_{-\infty}^{\infty} t |\phi(t)|
 
 RMS radius of time: $\Delta_{\phi}:= \dfrac{1}{||\phi||}\[\int_{-\infty}^{\infty}(t-t^{\*})^2|\phi(t)|^2 dt\]^{1/2}$
 
+The center and radius for frequency is similar to time, they can be represented as:
+
+Frequecny center: $\omega^{\*}:=\defrac{1}{||\hat{\phi}||^2} \int_{-\infty}^{\infty} \omega |\hat{\phi}(\omega)|^2 d\omega$
+
 
 [1]:Fundmentals of Wavelets, p118
