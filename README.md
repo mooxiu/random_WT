@@ -48,7 +48,9 @@ The wavelet coefficient for all time range and frequency range:
 
 $W_{f}(b,a)=\dfrac{1}{\sqrt{a}}\int_{-\infty}^{\infty} f(t) \bar{\psi}\dfrac{t-b}{a}dt$
 
-In this original cwt function, 
+If we have assign a certain time and frequency and want to figure out its wavelet coefficient and the wavelet coefficient which is consecutive to it. We have to notice, that the two wavelet have the same frequency but different time shift. However, same frequency means that they have the same RMS time radius. Thus we assume that the distance of center time of two consecutive wavelets is twice the RMS time radius.
+
+
 
 
 
