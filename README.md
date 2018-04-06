@@ -32,7 +32,18 @@ Frequecny center: $\omega^{\*}:=\dfrac{1}{||\hat{\phi}||^2} \int_{-\infty}^{\inf
 
 RMS radius of frequency: $\Delta_{\hat{\phi}}:= \dfrac{1}{||\hat{\phi}||}\[\int_{-\infty}^{\infty} (\omega-\omega^{\*})^2|\hat{\phi}(\omega)|^2 d\omega\]$
 
-In which, $||\phi||^2$ means the 2 norm of $\phi$, that is $||\phi||^2=\int_{-\infty}^{\infty}|\phi(t)|^2 dt$
+In which, $||\phi||^2$ means the 2 norm of $\phi$, that is $||\phi||^2=\int_{-\infty}^{\infty}|\phi(t)|^2 dt$. 
+
+This file are using the formulas above to calculate the important parameters of time-frequency windows.
+
+## pycwt.py
+
+This file can be divided into three parts, they are dealing with 1.wavelet transform, 2.phase calculation and randomization, 3. reconstruct of the signal.
+
+### wavelet transform
+
+Continuous wavelet transform can cover the whole time and frequency domian, which is unpractical. As we are only considering change a certain part of time and frequency, we can only integrate in a certain range to find out the wavelet coefficient of certain time and frequency.
+
 
 
 
